@@ -10,7 +10,9 @@ Welcome to documentation-test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   usage
+   arg_parse_script.rst
+   no_args_script.rst
+   bash_script.rst
 
 Indices and tables
 ==================
