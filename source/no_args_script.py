@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+""" A script that demonstrates the use of a script with no arguments. """
 
 def main():
     """The main function that performs the task."""

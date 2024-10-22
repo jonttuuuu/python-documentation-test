@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+""" A script that demonstrates the use of the argparse module. """
 
 import argparse
 
