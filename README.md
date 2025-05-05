@@ -31,7 +31,7 @@ python3 -m pip install docs/requirements.txt --break-system-packages
 Build locally with sphinx-autobuild:
 
 ```bash
-sphinx-autobuild docs docs/build
+sphinx-autobuild docs docs/_build
 ```
 
 This way you can see the changes in real time.
