@@ -33,6 +33,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          fetch-tags: true
 
       - name: Set up Python 3.12.3
         uses: actions/setup-python@v5
@@ -42,7 +43,7 @@ jobs:
       - name: Run sphinx-versioned to build docs
         run: |
           python -m pip install -r docs/requirements.txt
-          sphinx-versioned --branch "main,release/v*"
+          sphinx-versioned --branch "main,v*"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
