@@ -42,7 +42,7 @@ jobs:
       - name: Run sphinx-versioned to build docs
         run: |
           python -m pip install -r docs/requirements.txt
-          sphinx-versioned --branch "main,v*"
+          sphinx-versioned --branch "main,release/v*"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
