@@ -35,3 +35,11 @@ sphinx-autobuild docs docs/_build
 ```
 
 This way you can see the changes in real time.
+
+Building versioned docs locally can be achieved by:
+
+```bash
+sphinx-versioned --branch "main,v*"
+```
+
+This will combine documentation for main and all semantically versioned tags into one.
